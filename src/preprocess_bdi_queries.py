@@ -5,8 +5,8 @@
 
 import argparse
 import sys
-from os import getcwd, makedirs
-from os.path import basename, isdir, isfile, join, splitext
+from os import makedirs
+from os.path import basename, isdir, isfile, join, dirname, splitext
 
 from nltk.corpus import stopwords as stopwords_nltk
 
@@ -33,7 +33,6 @@ def main():
 
     # Output arguments #
     help_msgs.append('preprocessed query filepath (txt)')
-    default_output_dir = join(getcwd(), 'queries_preprocessed')
 
     # Input arguments #
     parser.add_argument('-i', '--input', action='store', metavar='PATH', 
@@ -46,8 +45,7 @@ def main():
     
     # Output arguments #
     parser.add_argument('-o', '--output_dir', action='store', metavar='PATH',
-                        default=default_output_dir, help=help_msgs[2], 
-                        required=False)
+                        default=None, help=help_msgs[2], required=False)
     
     # Arguments parsing #
     args = parser.parse_args()
@@ -55,6 +53,11 @@ def main():
     # Check if input exists and is a file. Otherwise, exit #
     if not isfile(args.bdi_raw_queries_filepath):
         sys.exit(' %s -> the path does not point to a valid file')
+    
+    # The default output directory is the same as the input file if not specified #
+    default_output_dir = dirname(args.bdi_raw_queries_filepath)
+    if args.output_dir is None:
+        args.output_dir = default_output_dir
 
     # Create the output directory if it does not exist #
     if not isdir(args.output_dir):

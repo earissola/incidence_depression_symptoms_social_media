@@ -1,0 +1,21 @@
+1	 mood consistently low feeling blue often like dark cloud hanging struggling cope overwhelming sadness can't seem find joy anything anymore
+2	 feeling hopeless future looks bleak feeling discouraged nothing seems promising ahead feeling discouraged
+3	 feel like messed many times haunted past mistakes failure seems recurring theme life drowning sea regrets sometimes wonder destined fail
+4	 activities brought joy feel dull nothing seems bring satisfaction like used find disinterested things found enjoyable
+5	 feel guilty time guilt common feeling
+6	 feel like penalized seems punishment inevitable sense consequences looming isolation feels like form punishment world seems conspire
+7	 feel self-loathing ashamed despise constantly disappointed filled self-hatred feel like failure despise
+8	 critical constantly blaming comparing negatively others internalizing faults self-criticism mistakes excessive self-blame
+9	 thoughts harming sometimes feel like ending life intentions fleeting thoughts ending life made attempts suicidal ideations acted
+10	 crying frequency change depression inability cry
+11	 restless agitated hard stay still agitated keep moving
+12	 interest people decreased enthusiasm social interactions waned find hard connect people curiosity others diminished
+13	 difficulty deciding struggle choices problems making decisions feeling unmotivated feeling indecisive
+14	 comparing others makes feel even useless sometimes feel completely insignificant worthless
+15	 struggling start tasks lacking motivation begin activities forcing accomplish anything complete lack energy hindering productivity
+16	 chronic insomnia severe early morning awakening decreased sleep quality usual sleeping patterns
+17	 bothered things much find getting irritated easily finding getting annoyed getting frustrated frequently
+18	 notice significant changes appetite much worse usual appetite inconsistent good sometimes much worse
+19	 struggling focus mind wanders constantly mind feels scattered trouble staying attentive concentration challenge
+20	 experiencing increased tiredness significant change tiredness easily fatigued compared past exhausted simple tasks 
+21	 change interest sex decreased interest sex
